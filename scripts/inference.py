@@ -142,7 +142,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--inference_config", type=str, default="configs/inference/test_img.yaml")
+    parser.add_argument("--inference_config", type=str, default="/content/MuseTalk/configs/inference/test.yaml")
     parser.add_argument("--bbox_shift", type=int, default=0)
     parser.add_argument("--result_dir", default='./results', help="path to output")
 
